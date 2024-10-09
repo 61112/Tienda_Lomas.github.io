@@ -1,0 +1,56 @@
+body{
+font-family: arial, helvetica;       /*  Aqui escojes la letra */
+background: #e8e8e8;                       /*  El color  de fondo*/
+}
+
+/*  +++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*  Aqui le damos formato al icono  */
+img{
+   border-radius: 50%;
+   width: 50px;       /*  ancho  */
+   height: 50px;      /*  largo  */
+   object-fit: fill;
+  }
+
+ /*  +++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*  Aqui le damos formato a toda la clase llamada menu */
+
+ .menu{
+
+    list-style: none ;                    /*  estilo ninguno */
+    padding: 0;                            /*  margen 0 */
+    background: #092327;                /*  Color negro */
+    width: 100%;                            /*  tamaño de la barra ancho */
+    max-width: 1000 px;
+    margin: auto;                        /*  quede centrado */
+ }
+
+
+  /*  +++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*  Aqui le daremos formato a los " li " modifica los enlaces*/
+
+.menu li a{
+text-decoration: none;                /*  estilo ninguno */ 
+color: white;
+width: 80%;
+padding: 20px;                        /*  largo */
+display: block;
+
+  }
+
+   /*  +++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*  Aqui vamos a poner el menu de vertical a Horizontal*/
+
+.menu li{
+display: inline-block;
+text-align: center;
+
+}
+
+ /*  +++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*  Aqui al pasar el cursor se va a colorear o selecionar */
+
+.menu li a:hover{
+   background: rgb(82, 188, 230);
+    
+    }
