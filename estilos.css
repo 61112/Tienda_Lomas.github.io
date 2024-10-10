@@ -4,16 +4,21 @@
 }
 
 
-.contenedor{
+
+
+
+
+
+.boton ::after,.boton::before {
 
     main-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
 
-.boton ::after,.boton::before {
 
+
+    
   content: "";
   position: absolute;
   opacity: 0.3;
