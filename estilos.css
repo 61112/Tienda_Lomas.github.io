@@ -7,7 +7,7 @@
 .menu{
 
     border: 1px solid #2e518b; /*anchura, estilo y color borde*/
-padding: 10px; /*espacio alrededor texto*/
+padding: 20px; /*espacio alrededor texto*/
 background-color: #2e518b; /*color botón*/
 color: #ffffff; /*color texto*/
 text-decoration: none; /*decoración texto*/
@@ -18,7 +18,7 @@ border-radius: 50px; /*bordes redondos*/
 }
 
 h1{
-    color:blue;
+    color:rgb(241, 241, 247);
 }
 
 img{
