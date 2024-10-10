@@ -6,10 +6,10 @@
 
 .menu{
 
-    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    border: 1px solid #09090af5; /*anchura, estilo y color borde*/
 padding: 20px; /*espacio alrededor texto*/
-background-color: #2e518b; /*color botón*/
-color: #ffffff; /*color texto*/
+background-color: #3b3ef3; /*color botón*/
+color: #f1ee0b; /*color texto*/
 text-decoration: none; /*decoración texto*/
 text-transform: uppercase; /*capitalización texto*/
 font-family: 'Helvetica', sans-serif; /*tipografía texto*/
@@ -18,7 +18,7 @@ border-radius: 50px; /*bordes redondos*/
 }
 
 h1{
-    color:rgb(241, 241, 247);
+    color:rgb(11, 11, 245);
 }
 
 img{
