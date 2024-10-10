@@ -10,13 +10,13 @@
 
 
     border: 1px solid #09090af5; /*anchura, estilo y color borde*/
-padding: 20px; /*espacio alrededor texto*/
+padding: 50px; /*espacio alrededor texto*/
 background-color: #d4e08d; /*color botón*/
 color: #d4e08d; /*color texto*/
 text-decoration: none; /*decoración texto*/
 text-transform: uppercase; /*capitalización texto*/
 font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-border-radius: 20px; /*bordes redondos*/
+border-radius: 100px; /*bordes redondos*/
 
 }
 
