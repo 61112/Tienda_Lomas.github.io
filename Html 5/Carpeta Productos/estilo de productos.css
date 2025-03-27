@@ -1,0 +1,235 @@
+
+:root
+{
+
+--sombra: 0px 0px 15px rgba(0,0,0,0.7);
+--fonfo: rgb(141, 199, 233);   /*  cambia el fondo de la caja*/
+--radio:12 px;
+
+}
+
+#caja_padre1, #caja_padre2
+{
+    display: grid;
+    gap: 20px;
+    grid-template: repeat(2, 250px) / repeat(3, 1fr); /*  cambia el largo  de la caja*/
+width: 80%;   /*  es como el zoom  de la caja*/
+margin: 90px auto;
+padding: 20px;
+background-color: var(--fonfo);
+box-shadow: var(--sombra);
+border-radius: var(--radio);
+text-align: center;
+
+list-style: none;    /*  quito los puntos de la eqtiqueta li   de la caja*/
+
+}
+
+
+
+ .producto
+
+{
+text-align: center;
+padding: 10px;
+background-color: var(--fonfo);
+box-shadow: var(--sombra);
+border-radius: var(--radio);
+}
+
+
+
+ /*  +++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+ /*  +++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+
+
+
+
+body{
+    font-family: arial, helvetica;       /*  Aqui escojes la letra */
+     background: #e8e8e8;                       /*  El color  de fondo*/
+    }    
+    
+    /*  +++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+    /*  Aqui le damos formato al icono  */
+    
+    .img-logo{
+       border-radius: 50%;
+       width: 50px;       /*  ancho  */
+       height: 50px;      /*  largo  */
+       object-fit: fill;
+      }
+    
+     /*  +++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+    /*  Aqui le damos formato a toda la clase llamada menu */
+    
+     .menu{
+    
+        list-style: none ;                    /*  estilo ninguno */
+        padding: 0;                            /*  margen 0 */
+        background: #092327;                /*  Color negro */
+        width: 100%;                            /*  tamaño de la barra ancho */
+        max-width: 1000 px;
+       margin: auto;                        /*  quede centrado */
+     }
+    
+    
+      /*  +++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+    /*  Aqui le daremos formato a los " li " modifica los enlaces*/
+    
+    .menu li a{
+    text-decoration: none;                /*  estilo ninguno */ 
+    color: white;
+    width: 80%;
+    padding: 20px;                        /*  largo */
+    display: block;
+    
+      }
+    
+       /*  +++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+    /*  Aqui vamos a poner el menu de vertical a Horizontal*/
+    
+    .menu li{
+    display: inline-block;
+    text-align: center;
+    
+    }
+    
+     /*  +++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+    /*  Aqui al pasar el cursor se va a colorear o selecionar */
+    
+    .menu li a:hover{
+       background: rgb(82, 188, 230);
+        
+        }
+    
+    
+    
+    
+        /*  titulo */
+    
+        .titulo-productos{
+    
+    font-weight: lighter;
+    text-align: center; 
+    margin: 10px 0 30px 0;
+    
+        }  
+    
+    /*  buscar */
+    
+        .buscador-articulos{
+    
+         float: left;  
+          padding: 10px;
+          width: 50%;
+          border: none;
+          border-bottom: 1px solid var(--color-gray);
+    
+        }
+    
+    
+        /*  ordenar precios */
+        .categoria-precio{
+    float: right;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+     }
+    
+    
+         /*  para el texto */
+    .produc-box{
+       /* text-align: center;  */
+      color: black;
+      text-decoration: none;
+    }
+    
+    
+    .produc-box:hover{
+      text-decoration: none;
+    }
+    
+    
+    /*  le pones un tamaño apropiado a la imagen y haces que sus tranciciones sean lentas  */
+    .produc-box img{
+    transition: all 0.3s;
+    }
+    
+    /*  cuando pases el mouse sobre la imagen se hara grande  */
+    .produc-box:hover img{
+    
+      transform: scale(1.05);
+    }
+    
+    /* para letra h3*/
+    
+    .produc-box h3{
+    font-size: 14px;
+    font-weight: normal;
+    margin: 5px;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    }
+    
+    /* para letrero oferta*/
+    .produc-box .oferta{
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    
+    }
+    /* para ocultar letrero oferta*/
+    .produc-box .oferta.oculta{
+      visibility: hidden;
+      
+      }
+    /* para letrero presio de antes*/
+      .produc-box .precio{
+        font-size: 18px;
+    
+      }
+    
+      .produc-box strong del{
+        font-size: 14px;
+        font-weight: normal;
+        margin-bottom: 5px;
+      }
+    
+      /* para ir a la paguina dos de mi sitio web*/
+      .paguina-siguiente{
+    text-align: center;
+    list-style: none;
+    font-size: 18px;
+    
+      }
+    /* para poner en lista*/
+      .paguina-siguiente li{
+    display: inline-block;
+    
+      }
+    
+      .paguina-siguiente li a{
+    color: black;
+    padding: 5px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    
+      }
+    
+      .paguina-siguiente li a.active{
+      border: 1px solid black;
+      
+      }
+    
+    
+      
+    

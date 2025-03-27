@@ -1,0 +1,279 @@
+    <!DOCTYPE html>
+<html lang="es">                                                                <!--Idioma yo lo cambio a es = espeñol-->
+<head>
+    <meta charset="UTF-8">                                                       <!--Caracteres adicionales como son las "ñ" -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">       <!--Ajusta la escala del sitio de un celular o pc-->
+    <!-----------------Meta Etiquetas ---------------------------------------------------------------------------------->
+    <meta name="author" content="Eduardo Lomas Lagunas">
+    <meta name="description" content="Ejercicio para crear sitio web">
+    <meta name="keywords" content="mi primer sitio web, ejemplo de un sitio web"> <!--palabras clave para que lo encuentre el usuario-->
+    
+    <title>Sitio WEB Dado Lomas</title>
+    <link rel="icon" href="logo tienda oficial.jpg">        <!-- Pone una foto en la pestaña  -->
+<link rel="stylesheet" href="estilo de productos.css">
+
+</head>
+<body>
+
+
+<!--  Aqui comienza codigo de barra de navegacion           -->
+
+
+<link rel="stylesheet" type="text/css" href="estilobarradenavegacion.css">
+
+
+
+
+
+
+</head>
+
+<body>
+    
+
+
+    <ul class="menu">
+        <img src="./logo tienda oficial.jpg" alt="icono de facebook" class="img-logo"> 
+
+<li > <a href="../Carpeta Inicio/Inicio.html"> Inicio </a> </li>
+<li > <a href="../Carpeta Productos/Productos.html"> Productos </a> </li>
+<li > <a href="#"> Servicios </a> </li> 
+<li > <a href="../Carpeta Acerca de Nosotros/Acerca de nosotros.html"> Acerca De Nosotros </a> </li>
+<li > <a href="../Carpeta Login en HTML/LOGIN.HTML"> Inisiar Sesion </a> </li>
+
+    </ul>
+
+
+
+
+
+
+
+
+<!----------------- Inicio ----------------------------------------------------------------------------------> 
+    <header> <h1>Tienda Los Lomas</h1> </header>
+
+      <!----------------- Escribiendo texto ----------------------------------------------------------------------------------> 
+    
+      <main>
+       
+
+        <h1 class="titulo-productos">Área de Tecnología</h1>
+
+
+
+
+    <!----------------- Creando buscador para articulos ----------------------------------------------------------------------------------> 
+
+ <div class="row">
+
+    <div class="col-xs-12"> 
+
+<form >
+    <input class="buscador-articulos" type ="search" name="search" placeholder="Buscar el Articulo..."/>
+</form>
+
+ <!----------------- Creando filtros para los articulos ---------------------------------------------------------------------------------->
+
+<select class="categoria-precio">
+<option>Presio mas bajo</option>
+<option>Presio mas alto</option>
+<option>Por opiniones</option>
+<option>Por descuento</option>
+</select>
+
+    </div>
+
+</div>
+
+<br>
+<br>
+
+
+<br>
+
+
+
+
+
+    
+    <!-- contenido --->
+    
+<div id="caja_padre1">
+
+
+
+
+    <div id="producto1">
+
+ <!-- Insertando Imagen ---> 
+ <li ><a href="#" class="col-m-4 col-s-6 produc-box">   
+    <img alt="procuto 1" src=".\Imagenes de Articulos\Articulos tecnologia\aipods 1.jpg" width="100%" />
+    
+    <!-- Insertando la palabra oferta --->
+     <div class="oferta oculta" >oferta</div>
+ 
+     <!-- Insertando caracteristicas  --->
+  <h3> Airpods blancos </h3>
+ 
+  <!-- Insertando presio --->
+  <strong class="precio">$680.00</strong>
+</a> </li>
+
+    </div>
+
+
+
+
+
+    <div id="producto2">
+
+        <li ><a href="#" class="col-m-4 col-s-6 produc-box">
+    <img alt="procuto 2" src=".\Imagenes de Articulos\Articulos tecnologia\aipods 2.jpg" width="100%" />
+     <div class="oferta  " >oferta</div>
+  <h3> Airpods Negros </h3>
+  <strong class="precio"><del>$680.00</del> $550.98</strong>
+</a></li>
+
+    </div>
+
+
+
+
+
+    <div id="producto3">
+
+<li ><a href="#" class="col-m-4 col-s-6 produc-box">
+    <img alt="procuto 3" src=".\Imagenes de Articulos\Articulos tecnologia\aipods 3.jpg" width="100%" length="100%"/>
+     <div class="oferta oculta" >oferta</div>
+  <h3> Airpods Negros </h3>
+  <strong class="precio">$1,000.00</strong>
+</a></li> 
+
+    </div>
+
+
+
+  
+</div>          <!-- doble div ya que se acaba una caja --->
+
+ 
+
+
+
+
+
+
+
+
+     <!--  caja 2 que contiene otros  3 productos  /////////////////////////////  /////////////////////////////////////////////////// --->
+
+
+
+    <div id="caja_padre2">
+
+
+
+        <div id="producto4">
+
+            <li><a href="#" class="col-m-4 col-s-6 produc-box">
+                <img alt="procuto 4" src=".\Imagenes de Articulos\Articulos tecnologia\audifonos 4.jpg" width="100%"/>
+                 <div class="oferta oculta" >oferta</div>
+              <h3> Airpods Negros </h3>
+              <strong class="precio">$300.00</strong>
+            </a></li>
+    
+        </div>
+    
+
+
+
+
+
+
+
+        <div id="producto5">
+    
+            <li><a href="#" class="col-m-4 col-s-6 produc-box">
+                <img alt="procuto 5" src=".\Imagenes de Articulos\Articulos tecnologia\audifonos 5.jpg" width="100%"/>
+                 <div class="oferta" >oferta</div>
+              <h3> Airpods Negros </h3>
+              <strong class="precio"><del>$2,500.00</del> $750.00</strong>
+            </a></li>
+    
+        </div>
+    
+
+
+
+
+
+    
+        <div id="producto6">
+    
+            <li><a href="#" class="col-m-4 col-s-6 produc-box">
+                <img alt="procuto 6" src=".\Imagenes de Articulos\Articulos tecnologia\audifonos 6.jpg" width="100%"/>
+                 <div class="oferta oculta" >oferta</div>
+              <h3> Airpods Negros </h3>
+              <strong class="precio">$400.00</strong>
+            </a></li>
+    
+        </div>
+      
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!----------------- conteo de paginas ----------------------------------------------------------------------------------> 
+
+<ul class="paguina-siguiente">
+    <li><a href="#" class="active">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li>...</li>
+    <li><a href="#">10</a></li>
+    
+    
+    </ul>
+    
+      
+        
+        
+    
+       
+     
+    
+       <!----------------- Etiqueta para redes sociales ---------------------------------------------------------------------------------->
+       <aside>
+        <h2>Contactanos en Facebook</h2>
+        
+        <p> Eduardo Lomas</p>
+        <img src="./facebook.jpg" alt="icono de facebook">
+        <br> 
+        <a href="https://www.facebook.com/Dado.Lomas?mibextid=ZbWKwL">Ir a mi Facebook</a>  <!-- abrir un enlace -->
+       <br>                <!--salto de linea-->
+        <a href="https://www.facebook.com/Dado.Lomas?mibextid=ZbWKwL" target="_blank">Ir a mi Facebook</a>  <!-- abrir un enlace en otra pestaña -->
+    <hr>                <!--Etiqute de apertura-->
+       </aside>
+    <!----------------- Etiqueta para derechos de sitio web ---------------------------------------------------------------------------------->
+       <footer>  
+        &copy; Todos los derechos Reservados por EDUARDO LOMAS LAGUNAS 29/05/2024 
+    </footer>
+
+
+
+</body>
+</html>
